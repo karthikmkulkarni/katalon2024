@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1,Edge Chromium 123,,,28-04-2024 12:11:01,28-04-2024 12:12:00,58.844s,PASSED
+,,,,,,,
+Test Cases/TC1,Edge Chromium 123,,,28-04-2024 12:11:01,28-04-2024 12:12:00,58.072s,PASSED
+"openBrowser("""")",Edge Chromium 123,,,28-04-2024 12:11:03,28-04-2024 12:11:23,19.800s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 123,,,28-04-2024 12:11:23,28-04-2024 12:11:31,8.146s,PASSED
+"click(findTestObject(""Object Repository/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 123,,,28-04-2024 12:11:31,28-04-2024 12:11:43,12.337s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/img""), 0)",Edge Chromium 123,,,28-04-2024 12:11:43,28-04-2024 12:11:46,2.752s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/img_1""), 0)",Edge Chromium 123,,,28-04-2024 12:11:46,28-04-2024 12:11:47,1.346s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/img_1_2""), 0)",Edge Chromium 123,,,28-04-2024 12:11:47,28-04-2024 12:11:49,1.943s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/img_1_2_3""), 0)",Edge Chromium 123,,,28-04-2024 12:11:49,28-04-2024 12:11:50,1.027s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/img_1_2_3_4""), 0)",Edge Chromium 123,,,28-04-2024 12:11:50,28-04-2024 12:11:51,0.834s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/a_Sign In""), 0)",Edge Chromium 123,,,28-04-2024 12:11:51,28-04-2024 12:11:52,1.233s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/img_Sign In_img_cart""), 0)",Edge Chromium 123,,,28-04-2024 12:11:53,28-04-2024 12:11:53,0.780s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_JPetStore Demo/input__keyword""), 0)",Edge Chromium 123,,,28-04-2024 12:11:53,28-04-2024 12:11:54,0.678s,PASSED
+"takeScreenshotAsCheckpoint(""mypic"")",Edge Chromium 123,,,28-04-2024 12:11:54,28-04-2024 12:11:57,3.439s,PASSED
+closeBrowser(),Edge Chromium 123,,,28-04-2024 12:11:57,28-04-2024 12:12:00,2.141s,PASSED
