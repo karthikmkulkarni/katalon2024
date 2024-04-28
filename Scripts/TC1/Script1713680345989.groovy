@@ -39,5 +39,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_JPetStore Demo
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_JPetStore Demo/input__keyword'), 0)
 
+WebUI.takeScreenshotAsCheckpoint('mypic')
+
 WebUI.closeBrowser()
 
